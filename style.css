@@ -1,0 +1,31 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.row { 
+    display: flex;
+}
+
+.col { 
+    background-color: bisque;
+    flex: 1;
+    padding: 15px;
+    margin: 15px;
+}
+
+.col-2 {
+    background-color: bisque;
+    flex: 2;
+    padding: 15px;
+    margin: 15px;
+}
+
+.col-3 {
+    background-color: bisque;
+    flex: 3;
+    padding: 15px;
+    margin: 15px;
+}
